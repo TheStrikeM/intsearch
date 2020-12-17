@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+	font-family: 'UniSansCaps';
+	src: url('../font/uni-sans.heavy-caps.eot');
+	src: local('☺'), url('../font/uni-sans.heavy-caps.woff') format('woff'), url('../font/uni-sans.heavy-caps.ttf') format('truetype'), url('../font/uni-sans.heavy-caps.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.foot {
+	background-color: white;
+	padding: 30px;
+	box-shadow: 0px 0px 30px black;
+
+	.foot__maintitle {
+		font-size: 30px;
+		font-family: "UniSansCaps";
+	}
+
+	.foot__galka {
+		background-color: rgb(99, 1, 255);
+		border-radius: 50%;
+		padding: 5px;
+		margin-bottom: 5px;
+	}
+
+	.foot__mainsubtitle {
+		font-size: 20px;
+		line-height: 15px;
+	}
+
+	.foot__maincopyright {
+		margin-top: 40px;
+		font-size: 30px;
+		font-family: "UniSansCaps";
+		color: rgb(99, 1, 255);
+	}
+
+	.foot__mainsocials {
+		display: flex;
+		justify-content: center;
+
+		.foot__mainsocial {
+			margin: 20px;
+			padding: 3px;
+			transition: all 0.8s;
+
+			&:hover {
+				box-shadow: 0px 0px 15px black;
+				border-radius: 50%;
+				transform: scale(1.1, 1.1);
+			}
+		}
+	}
+
+	.foot__title {
+		font-size: 30px;
+		color: rgb(99, 98, 98);
+		font-family: "UniSansCaps";
+	}
+
+	.foot__list {
+		text-align: center;
+		li {
+			list-style: none;
+			text-align: start;
+			font-size: 15px;
+			font-family: "Montserrat";
+			a {
+				color: rgb(99, 1, 255);
+				font-size: 20px;
+				font-family: "Montserrat";
+				border-bottom: rgb(99, 1, 255) solid 2px;
+				transition: all 0.8s;
+				border-radius: 10px;
+				padding: 3px;
+				margin: 10px;
+
+				&:hover {
+					text-decoration: none;
+					background-color: rgb(179, 177, 177);
+				}
+			}
+		}
+	}
+
+}
