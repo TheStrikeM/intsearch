@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+@font-face {
+  font-family: "UniSansCaps";
+  src: url("../font/uni-sans.heavy-caps.eot");
+  src: local("☺"), url("../font/uni-sans.heavy-caps.woff") format("woff"), url("../font/uni-sans.heavy-caps.ttf") format("truetype"), url("../font/uni-sans.heavy-caps.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.wrapper {
+  background: url("https://fls.guru/img/main/main-bg.png");
+}
+
+.onepage {
+  margin-top: 100px;
+}
+.onepage .onepage__body {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px white;
+  transition: all 0.8s;
+}
+.onepage .onepage__body:hover {
+  transform: scale(1.003, 1.003);
+}
+.onepage .onepage__body .onepage__name {
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: "Open Sans";
+}
+.onepage .onepage__body .onepage__tag {
+  font-size: 30px;
+  color: #6301ff;
+  font-family: "Open Sans";
+}
+.onepage .onepage__body .onepage__image {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.onepage .onepage__body .onepage__image img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px black;
+}
+.onepage .onepage__body .onepage__image p {
+  color: dimgray;
+  font-size: 20px;
+}
+.onepage .onepage__body .onepage__update {
+  background-color: white;
+  border: 3px solid #6301ff;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.8s;
+}
+.onepage .onepage__body .onepage__update:hover {
+  background-color: #6301ff;
+  text-decoration: none;
+}
+.onepage .onepage__body .onepage__socials {
+  display: flex;
+  justify-content: center;
+  background-color: #93c5f3;
+  padding: 10px;
+  margin: 40px 0px 40px 0px;
+  border: 3px solid #79baf7;
+  flex-wrap: wrap;
+}
+.onepage .onepage__body .onepage__socials .onepage__social {
+  padding: 10px;
+  margin: 5px 15px 5px 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px white;
+  background-color: whitesmoke;
+}
+.onepage .onepage__body .onepage__socials .onepage__social a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  text-shadow: 0px 0px 15px black;
+}
+.onepage .onepage__body .onepage__text {
+  padding: 5px;
+  text-shadow: 0px 0px 20px black;
+  font-size: 20px;
+}
+.onepage .onepage__body .onepage__text span {
+  font-size: 22px;
+  font-family: "Open Sans";
+}
+.onepage .onepage__body .onepage__end {
+  margin-top: 40px;
+}
+
+.editprofile {
+  margin-top: 100px;
+}
+.editprofile .editprofile__body {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px white;
+  transition: all 0.8s;
+}
+.editprofile .editprofile__body:hover {
+  transform: scale(1.003, 1.003);
+}
+.editprofile .editprofile__body .editprofile__navigate {
+  display: flex;
+  justify-content: space-around;
+}
+.editprofile .editprofile__body .editprofile__navigate .editprofile__item {
+  padding: 5px;
+  font-size: 25px;
+  color: black;
+}
+.editprofile .editprofile__body .editprofile__navigate .editprofile__item a {
+  transition: background-color 1s;
+  padding: 15px;
+}
+.editprofile .editprofile__body .editprofile__navigate .editprofile__item a:hover {
+  background-color: #bbbbbb;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid #22aeff;
+}
+.editprofile .editprofile__body .editprofile__navigate .editprofile__item__active {
+  padding: 5px;
+  font-size: 25px;
+  color: black;
+}
+.editprofile .editprofile__body .editprofile__navigate .editprofile__item__active a {
+  transition: background-color 1s;
+  padding: 15px;
+  border-bottom: 2px solid #22aeff;
+}
+.editprofile .editprofile__body .editprofile__navigate .editprofile__item__active a:hover {
+  background-color: #bbbbbb;
+  text-decoration: none;
+  color: black;
+}
+.editprofile .editprofile__body .editprofile__title {
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: "Open Sans";
+}
+.editprofile .editprofile__body .editprofile__form {
+  padding: 10px;
+}
+.editprofile .editprofile__body .editprofile__form .item {
+  padding: 20px;
+  margin: 10px;
+}
+.editprofile .editprofile__body .editprofile__form .submit_btn {
+  padding: 10px;
+  box-shadow: 5px 5px 20px #6301ff;
+  background-color: white;
+  border: 2px solid #6301ff;
+  border-radius: 10%;
+  transition: all 1s;
+}
+.editprofile .editprofile__body .editprofile__form .submit_btn:hover {
+  box-shadow: 15px 15px 20px #6301ff;
+  background-color: #6301ff;
+}
