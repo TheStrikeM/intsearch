@@ -1,2 +1,2 @@
 # intsearch
-Social Network (Front End)
+Social network theme
